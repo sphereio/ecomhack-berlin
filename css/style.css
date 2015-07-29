@@ -601,6 +601,17 @@ header {
 /* ============================== */
 /*		    z-layout2 section  	  */
 /* ============================== */
+#timeline h2 {
+  color: #36c1c1; }
+
+#timeline hr {
+  background-color: #f21c42;
+  margin: 25px auto;
+  border: none;
+  text-align: center;
+  width: 80px;
+  height: 4px; }
+
 #venue {
   background-color: #36c1c1;
   background-size: cover;
@@ -749,7 +760,7 @@ header {
       z-index: 1000; }
       #timeline .timeline-wrapper .date-container .date {
         color: #fff;
-        background-color: #3b475f;
+        background-color: #36c1c1;
         font-family: "Montserrat", sans-serif;
         font-size: 24px;
         font-weight: 400;
@@ -789,12 +800,12 @@ header {
       padding-top: 35px;
       position: relative; }
       #timeline .timeline-wrapper .timeline-date p {
-        color: #f46464;
+        color: #36c1c1;
         font-family: "Montserrat", sans-serif;
         font-size: 24px;
         font-weight: 400; }
         #timeline .timeline-wrapper .timeline-date p span {
-          color: #3b475f; }
+          color: #f21c42; }
       #timeline .timeline-wrapper .timeline-date:after {
         background-color: #3b475f;
         content: '';
@@ -1038,19 +1049,14 @@ header {
   padding: 75px 0;
   text-align: center; }
   #apis hr {
-    width: 80%;
+    background-color: #f21c42;
+    margin: 25px auto;
     border: none;
-    height: 1px;
-    margin: 0 auto;
     text-align: center;
-    background: #f0f1f2;
-    background: -moz-linear-gradient(left, #f0f1f2 0%, #e0e1e2 50%, #f0f1f2 100%);
-    background: -webkit-gradient(linear, left top, right top, color-stop(0%, #f0f1f2), color-stop(50%, #e0e1e2), color-stop(100%, #f0f1f2));
-    background: -webkit-linear-gradient(left, #f0f1f2 0%, #e0e1e2 50%, #f0f1f2 100%);
-    background: -o-linear-gradient(left, #f0f1f2 0%, #e0e1e2 50%, #f0f1f2 100%);
-    background: -ms-linear-gradient(left, #f0f1f2 0%, #e0e1e2 50%, #f0f1f2 100%);
-    background: linear-gradient(to right, #f0f1f2 0%, #e0e1e2 50%, #f0f1f2 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f1f2', endColorstr='#f0f1f2',GradientType=1 ); }
+    width: 80px;
+    height: 4px; }
+  #apis h2 {
+    color: #fff; }
   #apis .first-row {
     margin-top: 60px;
     display: inline-block;
@@ -1565,5 +1571,19 @@ footer {
 /* Custom, iPhone Retina */
 #about p {
   text-align: justify; }
+
+#about hr {
+  background-color: #f21c42;
+  margin: 25px auto;
+  border: none;
+  text-align: center;
+  width: 80px;
+  height: 4px; }
+
+#about h2 {
+  color: #36c1c1; }
+
+.timeline-info h3 {
+  color: #f21c42; }
 
 /*# sourceMappingURL=style.css.map */
