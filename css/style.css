@@ -1536,17 +1536,7 @@ footer {
     font-size: 16px; }
 
   #map-location {
-    height: 480px; }
-
-  .big-text {
-    color: #f21c42;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 700;
-    font-size: 330%;
-    line-height: 90px;
-    margin-top: 5px;
-    padding: 10px 0;
-    text-transform: uppercase; } }
+    height: 480px; } }
 @media only screen and (max-width: 430px) {
   h1 {
     font-size: 50px !important; } }
@@ -1603,35 +1593,72 @@ div#partners hr {
   border-radius: 0;
   margin: 20px auto;
   width: 50%;
-  font-style: normal; }
+  font-style: normal;
+  font-size: 300%; }
 
 /* ----------- iPhone 4 and 4S ----------- */
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  .big-text {
+    font-size: 500%; }
+
   .btn-ecomhack-big {
     width: 100%; } }
 /* Portrait */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .big-text {
+    font-size: 500%; } }
 /* Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .big-text {
+    font-size: 500%; } }
 /* ----------- iPhone 5 and 5S ----------- */
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+  .big-text {
+    font-size: 500%; }
+
   .btn-ecomhack-big {
     width: 100%; } }
 /* Portrait */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .big-text {
+    font-size: 500%; } }
 /* Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .big-text {
+    font-size: 500%; } }
 /* ----------- iPhone 6 ----------- */
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  .big-text {
+    font-size: 500%; }
+
   .btn-ecomhack-big {
     width: 100%; } }
 /* Portrait */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .big-text {
+    font-size: 500%; } }
 /* Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .big-text {
+    font-size: 500%; } }
 /* ----------- iPhone 6+ ----------- */
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+  .big-text {
+    font-size: 500%; }
+
   .btn-ecomhack-big {
     width: 100%; } }
 /* Portrait */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+  .big-text {
+    font-size: 500%; } }
 /* Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+  .big-text {
+    font-size: 500%; } }
 
 /*# sourceMappingURL=style.css.map */
