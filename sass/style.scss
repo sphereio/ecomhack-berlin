@@ -2148,7 +2148,7 @@ div#partners{
 /* Portrait and Landscape */
 @media only screen  and (min-device-width: 320px)  and (max-device-width: 480px)  and (-webkit-min-device-pixel-ratio: 2) {
 	#main-section .main-intro .big-text {
-			font-size:500%;
+		font-size:500% !important;
 			}
 
 
@@ -2161,14 +2161,14 @@ div#partners{
 /* Portrait */
 @media only screen  and (min-device-width: 320px)  and (max-device-width: 480px)  and (-webkit-min-device-pixel-ratio: 2)  and (orientation: portrait) {
 	#main-section .main-intro .big-text {
-			font-size:500%;
+		font-size:500% !important;
 			}
 }
 
 /* Landscape */
 @media only screen  and (min-device-width: 320px)  and (max-device-width: 480px)  and (-webkit-min-device-pixel-ratio: 2)  and (orientation: landscape) {
 	#main-section .main-intro .big-text {
-		font-size:500%;
+		font-size:500% !important;
 		}
 
 }
