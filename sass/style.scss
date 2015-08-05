@@ -7,9 +7,7 @@ $text-second-color: $text-color;
 $link-color: #3b475f;
 $orange-color: #f46464;
 $orange-hover: #e97e6b;
-
 $city-color:rgb(54,193,193);
-
 $ecomhack-red:#f21c42;
 
 // fonts
@@ -399,17 +397,15 @@ header{
 
     .side-text{
 		padding-top: 235px;
-
-		.small-text{
-			font-size: 20px;
-			font-style: italic;
-			display: inline-block;
-			padding: 6px 15px;
-			border-top: 1px solid transparent_color(#fff, .2);
-			border-bottom: 1px solid transparent_color(#fff, .2);
-		}
+			.small-text{
+				font-size: 20px;
+				font-style: italic;
+				display: inline-block;
+				padding: 6px 15px;
+				border-top: 1px solid transparent_color(#fff, .2);
+				border-bottom: 1px solid transparent_color(#fff, .2);
+			}
     }
-
     .main-intro{
 	    .curved-text{
 		    color: #fff;
@@ -419,14 +415,12 @@ header{
 		    text-transform: uppercase;
 		    letter-spacing: 5px;
 	    }
-
 	    .medium-text{
 		    font-size: 30px;
 		    font-style: italic;
 		    margin-top: 50px;
 		    display: inline-block;
 	    }
-
 	    h1{
 	    	color: #fff;
 		    font-family: $montserrat-font;
@@ -2184,7 +2178,7 @@ div#partners{
 /* Portrait and Landscape */
 @media only screen  and (min-device-width: 320px)  and (max-device-width: 568px)  and (-webkit-min-device-pixel-ratio: 2) {
 	#main-section .main-intro .big-text {
-			font-size:500%;
+		font-size:500% !important;
 			}
 		.btn-ecomhack-big{
 		width: 100%;
@@ -2195,14 +2189,14 @@ div#partners{
 /* Portrait */
 @media only screen  and (min-device-width: 320px)  and (max-device-width: 568px)  and (-webkit-min-device-pixel-ratio: 2)  and (orientation: portrait) {
 	#main-section .main-intro .big-text {
-			font-size:500%;
+		font-size:500% !important;
 			}
 }
 
 /* Landscape */
 @media only screen  and (min-device-width: 320px)  and (max-device-width: 568px)  and (-webkit-min-device-pixel-ratio: 2)  and (orientation: landscape) {
 		.big-text {
-			font-size:500%;
+		font-size:500% !important;
 			}
 }
 
@@ -2211,7 +2205,7 @@ div#partners{
 /* Portrait and Landscape */
 @media only screen  and (min-device-width: 375px)  and (max-device-width: 667px)  and (-webkit-min-device-pixel-ratio: 2) {
 	#main-section .main-intro .big-text {
-			font-size:500%;
+		font-size:500% !important;
 			}
 		.btn-ecomhack-big{
 		width: 100%;
@@ -2222,7 +2216,7 @@ div#partners{
 /* Portrait */
 @media only screen  and (min-device-width: 375px)  and (max-device-width: 667px)  and (-webkit-min-device-pixel-ratio: 2)  and (orientation: portrait) {
 	#main-section .main-intro .big-text {
-		font-size:500%;
+		font-size:500% !important;
 		}
 
 }
@@ -2230,7 +2224,7 @@ div#partners{
 /* Landscape */
 @media only screen  and (min-device-width: 375px)  and (max-device-width: 667px)  and (-webkit-min-device-pixel-ratio: 2)  and (orientation: landscape) {
 	#main-section .main-intro .big-text {
-			font-size:500%;
+		font-size:500% !important;
 		}
 }
 
@@ -2239,7 +2233,7 @@ div#partners{
 /* Portrait and Landscape */
 @media only screen  and (min-device-width: 414px)  and (max-device-width: 736px)  and (-webkit-min-device-pixel-ratio: 3) {
 	#main-section .main-intro .big-text {
-			font-size:500%;
+		font-size:500% !important;
 			}
 		.btn-ecomhack-big{
 			width: 100%;
@@ -2249,7 +2243,7 @@ div#partners{
 /* Portrait */
 @media only screen and (min-device-width: 414px)  and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
 	#main-section .main-intro .big-text {
-			font-size:500%;
+		font-size:500% !important;
 			}
 
 }
@@ -2257,7 +2251,7 @@ div#partners{
 /* Landscape */
 @media only screen  and (min-device-width: 414px)  and (max-device-width: 736px)  and (-webkit-min-device-pixel-ratio: 3)  and (orientation: landscape) {
 	#main-section .main-intro .big-text {
-		font-size:500%;
+		font-size:500% !important;
 		}
 
 }
