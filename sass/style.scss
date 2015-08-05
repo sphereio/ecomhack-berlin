@@ -2178,7 +2178,8 @@ div#partners{
 /* Portrait and Landscape */
 @media only screen  and (min-device-width: 320px)  and (max-device-width: 568px)  and (-webkit-min-device-pixel-ratio: 2) {
 	#main-section .main-intro .big-text {
-		font-size:500% !important;
+		font-size:280% !important;
+		line-height: 1.5em;
 			}
 		.btn-ecomhack-big{
 		width: 100%;
@@ -2189,14 +2190,16 @@ div#partners{
 /* Portrait */
 @media only screen  and (min-device-width: 320px)  and (max-device-width: 568px)  and (-webkit-min-device-pixel-ratio: 2)  and (orientation: portrait) {
 	#main-section .main-intro .big-text {
-		font-size:500% !important;
+		font-size:280% !important;
+		line-height: 1.5em;
 			}
 }
 
 /* Landscape */
 @media only screen  and (min-device-width: 320px)  and (max-device-width: 568px)  and (-webkit-min-device-pixel-ratio: 2)  and (orientation: landscape) {
 		.big-text {
-		font-size:500% !important;
+			font-size:280% !important;
+			line-height: 1.5em;
 			}
 }
 
