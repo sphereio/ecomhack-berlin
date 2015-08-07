@@ -330,6 +330,7 @@ header{
 }
 
 
+
 .main-navigation-header{
 
 	padding: 25px 0;
@@ -347,7 +348,7 @@ header{
 			text-align: center;
 			a{
 				font-family: $montserrat-font;
-				color: transparent_color(#fff, .3);
+				color: #3b475f;
 				position: relative;
 				transition: all .6s;
         text-align: left;
@@ -363,7 +364,7 @@ header{
 				    z-index: 20;
 				}
 				&:hover{
-					color: #fff;
+					color: $ecomhack-red;
 					&:before{
 						height: 3px;
 					}
@@ -373,7 +374,6 @@ header{
 		}
 	}
 }
-
 
 /* ============================== */
 /*		    main section  	      */
