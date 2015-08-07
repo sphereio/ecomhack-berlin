@@ -224,7 +224,7 @@ a:focus, a:active{outline: none;}
 }
 
 //---- override bootstrap styles ------
-.navbar{}
+.navbar{background-color: #fff;}
 .nav > li > a:hover, .nav > li > a:focus{background-color: transparent;}
 .navbar-nav > li > a{padding: 10px 15px;}
 .navbar-nav{padding-top: 15px !important;}
