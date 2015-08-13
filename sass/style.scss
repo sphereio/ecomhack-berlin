@@ -464,6 +464,7 @@ header{
         font-size: 14px;
         font-style: italic;
         line-height: 18px;
+				text-align: center;
       }
 
 	    .main-button{
@@ -493,6 +494,10 @@ header{
 #about{
 	padding: 25px 0 25px 0;
 	text-align: center;
+
+	& p{
+		font-size: 18px;
+	}
 
 	.row{
 		margin-top: 70px;
@@ -2081,7 +2086,7 @@ section#about{
 }
  section#venue p{
 	color: #fff;
-	font-size: 16px;
+	font-size: 18px;
 	text-align: center;
 }
 
