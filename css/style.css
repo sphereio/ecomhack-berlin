@@ -1347,6 +1347,17 @@ header {
   #map-location .gmnoprint div {
     background: none !important; }
 
+#partners h2 {
+  color: #36c1c1;
+  text-align: center; }
+#partners hr {
+  background-color: #f21c42;
+  margin: 25px auto;
+  border: none;
+  width: 80px;
+  height: 4px;
+  text-align: center; }
+
 /* ============================== */
 /*		     Maps section         */
 /* ============================== */

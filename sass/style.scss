@@ -1544,6 +1544,22 @@ header {
   }
 }
 
+// Partner section
+#partners {
+  h2 {
+    color: $city-color;
+    text-align: center;
+  }
+  hr {
+    background-color: #f21c42;
+    margin: 25px auto;
+    border: none;
+    width: 80px;
+    height: 4px;
+    text-align: center;
+  }
+}
+
 /* ============================== */
 /*		     Maps section         */
 /* ============================== */
