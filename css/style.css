@@ -1408,7 +1408,9 @@ header {
   @media screen and (max-width: 767px) {
     .t3n-logo {
       padding: 0;
-      max-height: 100px; } }
+      max-height: 100px;
+      margin-top: 20px;
+      margin-bottom: 30px; } }
 
 /* ============================== */
 /*		     Maps section         */
