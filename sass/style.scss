@@ -1563,19 +1563,27 @@ header {
 .angelhack-logo {
   @media screen and (max-width: 767px) {
     margin-bottom: 50px;
+    max-height: 100px;
+  }
+}
+.dwx-logo {
+  @media screen and (max-width: 767px) {
+    max-height: 100px;
   }
 }
 .ct-logo {
 	margin: 20% 0;
   @media screen and (max-width: 767px) {
     margin: 30px auto;
+    max-height: 100px;
+    max-width: 200px!important; // overwrite .img-responsive
   }
 }
 .ecomcamp-logo {
 	max-height: 100px;
 	max-width: 120px;
   @media screen and (max-width: 767px) {
-    max-height: none;
+    max-height: 100px;
     max-width: none;
     margin-top: 50px;
   }
@@ -1584,7 +1592,7 @@ header {
   max-height: 100px;
   max-width: 100px;
   @media screen and (max-width: 767px) {
-    max-height: none;
+    max-height: 100px;
     max-width: none;
     margin-top: 50px;
   }
@@ -1593,12 +1601,15 @@ header {
 	margin-top: 15%;
   @media screen and (max-width: 767px) {
     margin-top: 0;
+    max-height: 100px;
+    max-width: 200px!important; // overwrite .img-responsive
   }
 }
 .t3n-logo {
   padding: 15px;
   @media screen and (max-width: 767px) {
     padding: 0;
+    max-height: 100px;
   }
 }
 

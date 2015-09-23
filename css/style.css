@@ -1362,20 +1362,27 @@ header {
 
 @media screen and (max-width: 767px) {
   .angelhack-logo {
-    margin-bottom: 50px; } }
+    margin-bottom: 50px;
+    max-height: 100px; } }
+
+@media screen and (max-width: 767px) {
+  .dwx-logo {
+    max-height: 100px; } }
 
 .ct-logo {
   margin: 20% 0; }
   @media screen and (max-width: 767px) {
     .ct-logo {
-      margin: 30px auto; } }
+      margin: 30px auto;
+      max-height: 100px;
+      max-width: 200px !important; } }
 
 .ecomcamp-logo {
   max-height: 100px;
   max-width: 120px; }
   @media screen and (max-width: 767px) {
     .ecomcamp-logo {
-      max-height: none;
+      max-height: 100px;
       max-width: none;
       margin-top: 50px; } }
 
@@ -1384,7 +1391,7 @@ header {
   max-width: 100px; }
   @media screen and (max-width: 767px) {
     .f6s-logo {
-      max-height: none;
+      max-height: 100px;
       max-width: none;
       margin-top: 50px; } }
 
@@ -1392,13 +1399,16 @@ header {
   margin-top: 15%; }
   @media screen and (max-width: 767px) {
     .networld-logo {
-      margin-top: 0; } }
+      margin-top: 0;
+      max-height: 100px;
+      max-width: 200px !important; } }
 
 .t3n-logo {
   padding: 15px; }
   @media screen and (max-width: 767px) {
     .t3n-logo {
-      padding: 0; } }
+      padding: 0;
+      max-height: 100px; } }
 
 /* ============================== */
 /*		     Maps section         */
