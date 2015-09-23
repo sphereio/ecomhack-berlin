@@ -1347,16 +1347,58 @@ header {
   #map-location .gmnoprint div {
     background: none !important; }
 
-#partners h2 {
-  color: #36c1c1;
-  text-align: center; }
-#partners hr {
-  background-color: #f21c42;
-  margin: 25px auto;
-  border: none;
-  width: 80px;
-  height: 4px;
-  text-align: center; }
+#partners {
+  margin-bottom: 30px; }
+  #partners h2 {
+    color: #36c1c1;
+    text-align: center; }
+  #partners hr {
+    background-color: #f21c42;
+    margin: 25px auto;
+    border: none;
+    width: 80px;
+    height: 4px;
+    text-align: center; }
+
+@media screen and (max-width: 767px) {
+  .angelhack-logo {
+    margin-bottom: 50px; } }
+
+.ct-logo {
+  margin: 20% 0; }
+  @media screen and (max-width: 767px) {
+    .ct-logo {
+      margin: 30px auto; } }
+
+.ecomcamp-logo {
+  max-height: 100px;
+  max-width: 120px; }
+  @media screen and (max-width: 767px) {
+    .ecomcamp-logo {
+      max-height: none;
+      max-width: none;
+      margin-top: 50px; } }
+
+.f6s-logo {
+  max-height: 100px;
+  max-width: 100px; }
+  @media screen and (max-width: 767px) {
+    .f6s-logo {
+      max-height: none;
+      max-width: none;
+      margin-top: 50px; } }
+
+.networld-logo {
+  margin-top: 15%; }
+  @media screen and (max-width: 767px) {
+    .networld-logo {
+      margin-top: 0; } }
+
+.t3n-logo {
+  padding: 15px; }
+  @media screen and (max-width: 767px) {
+    .t3n-logo {
+      padding: 0; } }
 
 /* ============================== */
 /*		     Maps section         */
