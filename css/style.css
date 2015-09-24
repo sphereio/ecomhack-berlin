@@ -356,6 +356,27 @@ header {
       line-height: 28px;
       margin-top: 20px; }
 
+.prizes-section {
+  background: #F3A63F;
+  color: #3b475f;
+  padding: 30px 0; }
+
+.prices-section-hr {
+  background-color: #fff; }
+
+.prizes-section-title {
+  text-align: center;
+  font-size: 32px; }
+
+.prizes-title {
+  text-align: center;
+  font-size: 20px;
+  padding: 10px 0; }
+
+.prizes-list li {
+  list-style-type: cir;
+  font-size: 18px; }
+
 /* ============================== */
 /*		    features section  	  */
 /* ============================== */
