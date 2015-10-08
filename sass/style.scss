@@ -159,7 +159,7 @@ h3 {
 }
 p {
   color: $text-color;
-  line-height: 28px;
+  line-height: 35px;
 }
 .section-title {
   color: $orange-color;
@@ -447,11 +447,12 @@ header {
 /* ============================== */
 /*		    about section  	      */
 /* ============================== */
-#about {
+.about {
   padding: 25px 0;
   text-align: center;
   & p {
     font-size: 18px;
+    text-align: left;
   }
   .row {
     margin-top: 70px;
@@ -516,6 +517,10 @@ header {
   li {
     list-style-type: disc;
     font-size: 18px;
+    a {
+      color: #fff;
+      text-decoration: underline;
+    }
   }
 }
 
@@ -1634,6 +1639,12 @@ header {
     margin-bottom: 30px;
   }
 }
+.rocket-logo {
+  margin: 20% 0;
+  @media screen and (max-width: 767px) {
+    margin: 20px auto;
+  }
+}
 
 /* ============================== */
 /*		     Maps section         */
@@ -1920,7 +1931,7 @@ span.p-title {
   display: block;
   font-size: 130%;
 }
-section#about {
+section .about {
   & p {
     text-align: justify;
   }
@@ -1961,7 +1972,7 @@ div#partners {
 .timeline-info h3 {
   color: $ecomhack-red;
 }
-#about hr {
+.about hr {
   background-color: $ecomhack-red;
 }
 .btn-ecomhack-big {
