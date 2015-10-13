@@ -338,6 +338,9 @@ header {
     text-align: center;
     color: #36c1c1;
     font-size: 20px; }
+  .reasons-to-attend hr {
+    background-color: #f21c42;
+    height: 2px; }
   .reasons-to-attend ul {
     font-size: 18px; }
     .reasons-to-attend ul li {

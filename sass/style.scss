@@ -465,6 +465,10 @@ header {
     color: $city-color;
     font-size: 20px;
   }
+  hr {
+    background-color: $ecomhack-red;
+    height: 2px;
+  }
   ul {
     font-size: 18px;
     li {
