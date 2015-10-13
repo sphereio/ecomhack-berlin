@@ -330,7 +330,8 @@ header {
     text-align: center;
     color: #fff; }
   .about p {
-    color: #fff; }
+    color: #fff;
+    font-size: 18px; }
 
 .new-shopping-experience {
   padding: 25px 0;
