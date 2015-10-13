@@ -465,8 +465,11 @@ header {
     color: $city-color;
     font-size: 20px;
   }
-  li {
-    list-style: disc;
+  ul {
+    font-size: 18px;
+    li {
+      list-style: disc;
+    }
   }
   a {
     color: $city-color;
