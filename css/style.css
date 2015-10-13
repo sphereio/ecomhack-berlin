@@ -413,34 +413,6 @@ header {
       color: #fff;
       text-decoration: underline; }
 
-.judges-section {
-  padding: 20px 0;
-  border-bottom: 1px solid #36c1c1;
-  text-align: center; }
-  .judges-section h2 {
-    text-align: center;
-    color: #36c1c1; }
-  .judges-section hr {
-    background-color: #f21c42; }
-  .judges-section ul {
-    padding: 0; }
-    .judges-section ul li {
-      display: inline-block; }
-
-.judge-wrapper {
-  text-align: center;
-  color: #36c1c1;
-  line-height: 22px;
-  margin: 0 20px;
-  font-size: 14px; }
-  .judge-wrapper img {
-    margin: 20px 0;
-    max-height: 120px;
-    max-width: 120px;
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1), 0 4px 8px 0 rgba(0, 0, 0, 0.2); }
-  .judge-wrapper .judge-name {
-    font-size: 18px; }
-
 /* ============================== */
 /*		    features section  	  */
 /* ============================== */
@@ -591,21 +563,21 @@ header {
   background: linear-gradient(135deg, #fe7955 0%, #f05c6a 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fe7955', endColorstr='#f05c6a',GradientType=1 );
   text-align: center;
-  padding: 70px 0; }
+  padding: 20px 0; }
   #jury .section-title {
     color: rgba(0, 0, 0, 0.35);
     font-family: "Montserrat", sans-serif;
     font-style: italic; }
   #jury h2 {
-    color: #fff;
-    font-weight: 400; }
+    color: #fff; }
   #jury hr {
     background-color: rgba(0, 0, 0, 0.1); }
   #jury .main-text {
     color: rgba(255, 255, 255, 0.5);
     max-width: 590px; }
   #jury .team-item {
-    margin-top: 50px; }
+    margin: 20px;
+    display: inline-block; }
     #jury .team-item .team-thumbnail {
       width: 260px;
       padding: 10px;

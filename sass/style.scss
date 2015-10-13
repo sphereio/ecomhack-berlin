@@ -559,42 +559,6 @@ header {
   }
 }
 
-// Judges section
-.judges-section {
-  padding: 20px 0;
-  border-bottom: 1px solid $city-color;
-  text-align: center;
-  h2 {
-    text-align: center;
-    color: $city-color;
-  }
-  hr {
-    background-color: $ecomhack-red;
-  }
-  ul {
-    padding: 0;
-    li {
-      display: inline-block;
-    }
-  }
-}
-.judge-wrapper {
-  text-align: center;
-  color: $city-color;
-  line-height: 22px;
-  margin: 0 20px;
-  font-size: 14px;
-  img {
-    margin: 20px 0;
-    max-height: 120px;
-    max-width: 120px;
-    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.1), 0 4px 8px 0 rgba(0,0,0,0.2);
-  }
-  .judge-name {
-    font-size: 18px;
-  }
-}
-
 /* ============================== */
 /*		    features section  	  */
 /* ============================== */
@@ -738,7 +702,7 @@ header {
 #jury {
   @include gradient();
   text-align: center;
-  padding: 70px 0;
+  padding: 20px 0;
   .section-title {
     color: transparent_color(#000, .35);
     font-family: $montserrat-font;
@@ -746,7 +710,6 @@ header {
   }
   h2 {
     color: #fff;
-    font-weight: 400;
   }
   hr {
     background-color: transparent_color(#000, .1);
@@ -756,7 +719,8 @@ header {
     max-width: 590px;
   }
   .team-item {
-    margin-top: 50px;
+    margin: 20px;
+    display: inline-block;
     .team-thumbnail {
       width: 260px;
       padding: 10px;
