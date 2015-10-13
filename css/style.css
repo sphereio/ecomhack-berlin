@@ -324,34 +324,43 @@ header {
 /*		    about section  	      */
 /* ============================== */
 .about {
+  background: #36c1c1;
+  padding: 20px 0; }
+  .about h2 {
+    text-align: center;
+    color: #fff; }
+  .about p {
+    color: #fff; }
+
+.new-shopping-experience {
   padding: 25px 0;
   text-align: center; }
-  .about p {
+  .new-shopping-experience p {
     font-size: 18px;
     text-align: left; }
-  .about .row {
+  .new-shopping-experience .row {
     margin-top: 70px; }
-  .about h2 {
+  .new-shopping-experience h2 {
     margin-top: 17px;
     color: #36c1c1; }
-  .about hr {
-    background-color: rgba(0, 0, 0, 0.1); }
-  .about .main-text {
+  .new-shopping-experience hr {
+    background-color: #f21c42; }
+  .new-shopping-experience .main-text {
     max-width: 590px; }
-  .about .left-wrapper {
+  .new-shopping-experience .left-wrapper {
     padding-top: 85px; }
-    .about .left-wrapper .large-text {
+    .new-shopping-experience .left-wrapper .large-text {
       color: #a8b4c1;
       font-family: "Montserrat", sans-serif;
       font-size: 24px;
       font-style: italic;
       padding-right: 30px;
       line-height: 36px; }
-  .about .right-wrapper {
+  .new-shopping-experience .right-wrapper {
     padding-left: 50px; }
-    .about .right-wrapper h3 {
+    .new-shopping-experience .right-wrapper h3 {
       margin-top: 10px; }
-    .about .right-wrapper .medium-text {
+    .new-shopping-experience .right-wrapper .medium-text {
       color: #818c98;
       font-size: 18px;
       line-height: 28px;

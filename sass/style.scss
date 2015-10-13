@@ -448,6 +448,17 @@ header {
 /*		    about section  	      */
 /* ============================== */
 .about {
+  background: $city-color;
+  padding: 20px 0;
+  h2 {
+    text-align: center;
+    color: #fff;
+  }
+  p {
+    color: #fff;
+  }
+}
+.new-shopping-experience {
   padding: 25px 0;
   text-align: center;
   & p {
@@ -462,7 +473,7 @@ header {
     color: $city-color;
   }
   hr {
-    background-color: transparent_color(#000, .1);
+    background-color: $ecomhack-red;
   }
   .main-text {
     max-width: 590px;
