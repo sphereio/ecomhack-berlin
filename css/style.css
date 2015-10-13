@@ -337,7 +337,7 @@ header {
   .reasons-to-attend h2 {
     text-align: center;
     color: #36c1c1;
-    font-size: 20px; }
+    font-size: 22px; }
   .reasons-to-attend hr {
     background-color: #f21c42;
     height: 2px; }
@@ -421,6 +421,9 @@ header {
     color: #36c1c1; }
   .judges-section hr {
     background-color: #f21c42; }
+
+.judge-wrapper {
+  text-align: center; }
 
 /* ============================== */
 /*		    features section  	  */
