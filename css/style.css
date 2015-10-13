@@ -408,6 +408,15 @@ header {
       color: #fff;
       text-decoration: underline; }
 
+.judges-section {
+  padding: 20px 0;
+  border-bottom: 1px solid #36c1c1; }
+  .judges-section h2 {
+    text-align: center;
+    color: #36c1c1; }
+  .judges-section hr {
+    background-color: #f21c42; }
+
 /* ============================== */
 /*		    features section  	  */
 /* ============================== */

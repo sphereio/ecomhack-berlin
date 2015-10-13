@@ -552,6 +552,19 @@ header {
   }
 }
 
+// Judges section
+.judges-section {
+  padding: 20px 0;
+  border-bottom: 1px solid $city-color;
+  h2 {
+    text-align: center;
+    color: $city-color;
+  }
+  hr {
+    background-color: $ecomhack-red;
+  }
+}
+
 /* ============================== */
 /*		    features section  	  */
 /* ============================== */
