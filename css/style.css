@@ -324,26 +324,39 @@ header {
 /*		    about section  	      */
 /* ============================== */
 .about {
-  background: #36c1c1;
+  background: #fff;
   padding: 20px 0; }
   .about h2 {
     text-align: center;
-    color: #fff; }
+    color: #36c1c1; }
   .about p {
-    color: #fff;
     font-size: 18px; }
+
+.reasons-to-attend {
+  padding: 30px 0; }
+  .reasons-to-attend h2 {
+    text-align: center;
+    color: #36c1c1;
+    font-size: 20px; }
+  .reasons-to-attend li {
+    list-style: disc; }
+  .reasons-to-attend a {
+    color: #36c1c1;
+    text-decoration: underline; }
 
 .new-shopping-experience {
   padding: 25px 0;
-  text-align: center; }
+  text-align: center;
+  background: #36c1c1; }
   .new-shopping-experience p {
     font-size: 18px;
-    text-align: left; }
+    text-align: left;
+    color: #fff; }
   .new-shopping-experience .row {
     margin-top: 70px; }
   .new-shopping-experience h2 {
     margin-top: 17px;
-    color: #36c1c1; }
+    color: #fff; }
   .new-shopping-experience hr {
     background-color: #f21c42; }
   .new-shopping-experience .main-text {
