@@ -415,15 +415,32 @@ header {
 
 .judges-section {
   padding: 20px 0;
-  border-bottom: 1px solid #36c1c1; }
+  border-bottom: 1px solid #36c1c1;
+  text-align: center; }
   .judges-section h2 {
     text-align: center;
     color: #36c1c1; }
   .judges-section hr {
     background-color: #f21c42; }
+  .judges-section ul {
+    padding: 0; }
+    .judges-section ul li {
+      display: inline-block; }
 
 .judge-wrapper {
-  text-align: center; }
+  text-align: center;
+  font-size: 16px;
+  color: #36c1c1;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0 20px; }
+  .judge-wrapper img {
+    margin: 20px 0;
+    max-height: 120px;
+    max-width: 120px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1), 0 4px 8px 0 rgba(0, 0, 0, 0.2); }
+  .judge-wrapper .judge-name {
+    font-size: 16px; }
 
 /* ============================== */
 /*		    features section  	  */

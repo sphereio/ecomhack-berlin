@@ -563,6 +563,7 @@ header {
 .judges-section {
   padding: 20px 0;
   border-bottom: 1px solid $city-color;
+  text-align: center;
   h2 {
     text-align: center;
     color: $city-color;
@@ -570,9 +571,29 @@ header {
   hr {
     background-color: $ecomhack-red;
   }
+  ul {
+    padding: 0;
+    li {
+      display: inline-block;
+    }
+  }
 }
 .judge-wrapper {
   text-align: center;
+  font-size: 16px;
+  color: $city-color;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0 20px;
+  img {
+    margin: 20px 0;
+    max-height: 120px;
+    max-width: 120px;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.1), 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  .judge-name {
+    font-size: 16px;
+  }
 }
 
 /* ============================== */
