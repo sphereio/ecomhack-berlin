@@ -220,7 +220,7 @@ header {
 /*		    main section  	      */
 /* ============================== */
 #main-section {
-  background: url("../img/presentation.jpg") no-repeat fixed center;
+  background: url("../img/presentation.jpg") no-repeat center;
   background-color: #36c1c1;
   background-size: cover;
   color: #fff;
