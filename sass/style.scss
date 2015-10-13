@@ -1631,7 +1631,6 @@ header {
   @media screen and (max-width: 767px) {
     max-height: 100px;
     max-width: none;
-    margin-top: 50px;
   }
 }
 .networld-logo {
@@ -1647,14 +1646,19 @@ header {
   @media screen and (max-width: 767px) {
     padding: 0;
     max-height: 100px;
-    margin-top: 20px;
-    margin-bottom: 30px;
   }
 }
 .rocket-logo {
   margin: 20% 0;
   @media screen and (max-width: 767px) {
     margin: 20px auto;
+    max-width: 200px!important;
+  }
+}
+.ct-logo {
+  @media screen and (max-width: 767px) {
+    margin: 0 auto;
+    max-width: 200px!important;
   }
 }
 

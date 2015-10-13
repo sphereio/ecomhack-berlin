@@ -1423,8 +1423,7 @@ header {
   @media screen and (max-width: 767px) {
     .f6s-logo {
       max-height: 100px;
-      max-width: none;
-      margin-top: 50px; } }
+      max-width: none; } }
 
 .networld-logo {
   margin-top: 15%; }
@@ -1439,15 +1438,19 @@ header {
   @media screen and (max-width: 767px) {
     .t3n-logo {
       padding: 0;
-      max-height: 100px;
-      margin-top: 20px;
-      margin-bottom: 30px; } }
+      max-height: 100px; } }
 
 .rocket-logo {
   margin: 20% 0; }
   @media screen and (max-width: 767px) {
     .rocket-logo {
-      margin: 20px auto; } }
+      margin: 20px auto;
+      max-width: 200px !important; } }
+
+@media screen and (max-width: 767px) {
+  .ct-logo {
+    margin: 0 auto;
+    max-width: 200px !important; } }
 
 /* ============================== */
 /*		     Maps section         */
