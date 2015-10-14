@@ -700,7 +700,7 @@ header {
 /*		    team section  	  */
 /* ============================== */
 #jury {
-  @include gradient();
+  background: $city-color;
   text-align: center;
   padding: 20px 0;
   .section-title {
@@ -712,7 +712,7 @@ header {
     color: #fff;
   }
   hr {
-    background-color: $city-color;
+    background-color: $ecomhack-red;
   }
   .main-text {
     color: transparent_color(#fff, .5);
@@ -758,7 +758,7 @@ header {
         line-height: 48px;
         position: absolute;
         transition: all 0.3s;
-        @include gradient();
+        background: $ecomhack-red;
         @include radius(50%);
       }
       .first {
