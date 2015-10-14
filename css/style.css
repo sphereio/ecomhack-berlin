@@ -571,7 +571,7 @@ header {
   #jury h2 {
     color: #fff; }
   #jury hr {
-    background-color: rgba(0, 0, 0, 0.1); }
+    background-color: #36c1c1; }
   #jury .main-text {
     color: rgba(255, 255, 255, 0.5);
     max-width: 590px; }
@@ -595,6 +595,9 @@ header {
       /* stops bg color from leaking outside the border: */
       position: relative;
       overflow: hidden; }
+      #jury .team-item .team-thumbnail img {
+        border-radius: 50%;
+        height: 240px; }
     #jury .team-item .hovered {
       background-color: transparent;
       width: 240px;

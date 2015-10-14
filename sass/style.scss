@@ -712,7 +712,7 @@ header {
     color: #fff;
   }
   hr {
-    background-color: transparent_color(#000, .1);
+    background-color: $city-color;
   }
   .main-text {
     color: transparent_color(#fff, .5);
@@ -735,6 +735,10 @@ header {
       @include radius(50%);
       position: relative;
       overflow: hidden;
+      img {
+        border-radius: 50%;
+        height: 240px;
+      }
     }
     .hovered {
       background-color: transparent;
