@@ -594,7 +594,8 @@ header {
       overflow: hidden; }
       #jury .team-item .team-thumbnail img {
         border-radius: 50%;
-        height: 240px; }
+        height: 240px;
+        width: 240px; }
     #jury .team-item .hovered {
       background-color: transparent;
       width: 240px;
