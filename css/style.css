@@ -1471,6 +1471,16 @@ header {
       margin: 20px auto;
       max-width: 200px !important; } }
 
+.welcome-project-logo {
+  max-height: 110px;
+  max-width: 110px !important; }
+
+.silicon-allee-logo {
+  max-height: 90px; }
+  @media screen and (max-width: 767px) {
+    .silicon-allee-logo {
+      margin-bottom: 20px; } }
+
 @media screen and (max-width: 767px) {
   .ct-logo {
     margin: 0 auto;
