@@ -1638,6 +1638,11 @@ header {
     max-height: 100px;
   }
 }
+.cde-logo {
+  @media screen and (max-width: 767px) {
+    max-height: 130px;
+  }
+}
 .contentful-logo {
   @media screen and (max-width: 767px) {
     max-width: 200px!important;
@@ -1671,6 +1676,12 @@ header {
   @media screen and (max-width: 767px) {
     max-height: 100px;
     max-width: none;
+  }
+}
+.geekettes-logo {
+  @media screen and (max-width: 767px) {
+    margin-top: 30px;
+    max-height: 120px;
   }
 }
 .networld-logo {
