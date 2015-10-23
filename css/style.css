@@ -1417,8 +1417,11 @@ header {
 
 @media screen and (max-width: 767px) {
   .angelhack-logo {
-    margin-bottom: 20px;
     max-height: 100px; } }
+
+@media screen and (max-width: 767px) {
+  .contentful-logo {
+    max-width: 200px !important; } }
 
 .conrad-logo {
   margin-top: 20%; }
