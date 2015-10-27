@@ -1673,6 +1673,7 @@ header {
 .f6s-logo {
   max-height: 100px;
   max-width: 100px;
+  margin-top: 10px;
   @media screen and (max-width: 767px) {
     max-height: 100px;
     max-width: none;
@@ -1700,7 +1701,7 @@ header {
   }
 }
 .rocket-logo {
-  margin: 20% 0;
+  margin-top: 40px;
   @media screen and (max-width: 767px) {
     margin: 20px auto;
     max-width: 200px!important;
@@ -1712,6 +1713,7 @@ header {
 }
 .silicon-allee-logo {
   max-height: 90px;
+  margin-top: 15px;
   @media screen and (max-width: 767px) {
     margin-bottom: 20px;
   }
