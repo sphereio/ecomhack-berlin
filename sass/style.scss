@@ -1703,6 +1703,13 @@ header {
     max-height: 100px;
   }
 }
+.ratepay-logo {
+  margin-top: 30px;
+  @media screen and (max-width: 767px) {
+    margin-top: 0;
+    max-width: 200px!important;
+  }
+}
 .rocket-logo {
   margin-top: 40px;
   @media screen and (max-width: 767px) {
@@ -1725,6 +1732,11 @@ header {
   @media screen and (max-width: 767px) {
     margin: 0 auto;
     max-width: 200px!important;
+  }
+}
+.wie-logo {
+  @media screen and (max-width: 767px) {
+    max-width: 180px!important;
   }
 }
 

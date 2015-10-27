@@ -1480,6 +1480,13 @@ header {
       padding: 0;
       max-height: 100px; } }
 
+.ratepay-logo {
+  margin-top: 30px; }
+  @media screen and (max-width: 767px) {
+    .ratepay-logo {
+      margin-top: 0;
+      max-width: 200px !important; } }
+
 .rocket-logo {
   margin-top: 40px; }
   @media screen and (max-width: 767px) {
@@ -1502,6 +1509,10 @@ header {
   .ct-logo {
     margin: 0 auto;
     max-width: 200px !important; } }
+
+@media screen and (max-width: 767px) {
+  .wie-logo {
+    max-width: 180px !important; } }
 
 /* ============================== */
 /*		     Maps section         */
