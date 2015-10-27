@@ -1415,6 +1415,9 @@ header {
     height: 4px;
     text-align: center; }
 
+.partner-apis {
+  margin-bottom: 50px; }
+
 @media screen and (max-width: 767px) {
   .angelhack-logo {
     max-height: 100px; } }
